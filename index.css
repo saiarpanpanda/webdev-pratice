@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+    body{
+        background: url(pexels-pixabay-531321.jpg) no-repeat center center fixed;
+        background-size: cover; 
+    }
+    .container{ 
+        color: Black;
+        position: absolute;
+        top: 45%;
+        left: 75%; 
+    }
+    .container h1{
+        font-family: 'Heebo', sans-serif;
+        width: 80%;
+        display: inline-block;
+        font-size: 25px;
+        border-bottom: 5px solid salmon;
+        margin-bottom: 15px;
+        padding: 13px 0;
+        color: blaCK;
+    }
+    .box{
+        width: 100%; 
+        margin: 22px 0px;
+        border-bottom: 2px solid lightgoldenrodyellow
+    }
+    .box input{  
+        background: none;
+        width: 75%;
+        padding: 5px 5px;
+        font-size: 15px;
+        border: none;
+        outline:none;
+        color: black;
+    }
+    .btn{
+        color: white;
+        cursor: pointer;
+        outline: none; 
+        margin: 12px 21px;
+        padding: 10px 21px;
+        border: 1px solid lightslategray;
+        border-radius: 20px;
+        font-size: 18px;
+        background: none;
+        font-weight: bold;
+        
+    }
+    .btn:hover{
+        opacity: .5;
+        color:black; 
+        background: white; 
+        
+    }
